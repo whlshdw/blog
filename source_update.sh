@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-
+#该脚本用于将文件上传至github的blog仓库
 # 当发生错误时中止脚本
 set -e
 git init
