@@ -1,5 +1,5 @@
 ---
-title: 改变Markdown表格列宽
+title: Markdown-改变表格列宽
 author: 是鲸鱼
 top: false
 cover: true
@@ -14,7 +14,7 @@ tags:
 - Markdown技巧
 
 categories: 
-- 网页
+- 技术分享
 ---
 
 ------
@@ -37,6 +37,14 @@ categories:
 | a    | b                | c    |
 | ---- | ---------------- | ---- |
 | 1    | <img width=300/> | 3    |
+
+
+
+| a    | b    | c    |
+| ---- | ---- | ---- |
+|<img width=30%/>      |      | 3    |
+
+
 
 ##### 方法1：指定列宽，控制换行
 

@@ -168,6 +168,7 @@ sidebar:
 avatar:
   # Replace the default image and set the url here.
   url: https://cdn.jsdelivr.net/gh/sthwhl/Gallery@master/avatars/1.png
+  #url: https://cdn.jsdelivr.net/gh/whlshdw/mghstngsrvc@main/avatars/avatar-06.png
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
@@ -183,8 +184,8 @@ site_state: true
 social:
   GitHub: https://github.com/sthwhl || github
   E-Mail: mailto:sthwhl@outlook.com || envelope
-  Twitter: https://github.com/sthwhl || twitter
-  wechat: https://github.com/sthwhl || weixin
+  Twitter: https://twitter.com/qumuzh || twitter
+  Telegram: https://t.me/qumuzh || telegram
 #  Kindle: https://kindle.502.li || book
 #  Channel: https://https://t.me/rss_kubernetes || telegram
   RSS: /atom.xml || rss
@@ -741,7 +742,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto

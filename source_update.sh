@@ -3,11 +3,11 @@
 # 当发生错误时中止脚本
 set -e
 git init
-git checkout -b resources
+git checkout -B main
 git add -A
-git commit -m 'deploy'
+git commit -m 'update'
 
 # 部署到 https://<USERNAME>.github.io
-git push -f git@github.com:whlshdw/whlshdw.github.io.git resources
+git push -f git@github.com:whlshdw/blog.git main
 
 cd -

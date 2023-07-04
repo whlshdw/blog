@@ -1,5 +1,5 @@
 ---
-title: Markdown段落背景突出美化
+title: Markdown-段落背景突出美化
 author: 是鲸鱼
 top: false
 cover: true
@@ -11,23 +11,26 @@ date: 2019-11-18 18:29:03
 password:
 summary: 查询Markdown文档没有发现如何让段落高亮或如何给某个段落添加背景色。
 tags: 
-- Markdown技巧
+- Markdown
 
 categories: 
-- 网页
+- 技术分享
 ---
 
 ------
 
-<center> <h3>Markdown段落背景突出美化</h3> </center>
-**查询Markdown文档没有发现如何让段落高亮或如何给某个段落添加背景色。**
-**目前的一个解决方案是：通过添加HTML代码来实现 [高亮突出显示]**
+
+
+> 查询 Markdown 文档没有发现如何让段落高亮或如何给某个段落添加背景色。
+> 目前的解决方法是：**通过添加HTML代码来实现 [高亮突出显示]**
 
 ##### 应用场景：
 
 文章段落中需要用到高亮文章内容
 
-**实现方式**
+
+
+##### 实现方式：
 
 ```html
 <table>  
@@ -37,7 +40,9 @@ categories:
 </table>
 ```
 
-**网页展示效果**
+
+
+##### 网页展示效果：
 
 <table> 
     <tbody>
@@ -50,8 +55,3 @@ categories:
     </tr>
 </table>
 
-
-
-
-
-文章转发自：[**[美化hexo博客（一）段落背景突出美化]**](https://www.dazhuanlan.com/2020/01/06/5e12abcfe7135/)

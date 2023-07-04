@@ -11,9 +11,9 @@ author: whlshdw
 language: zh-CN
 timezone: Asia/Shanghai
 keywords: 
-  - 运维
-  - kubernetes
-  - docker
+  - psychology
+  - 绳索
+  - 户外
   - linux
 
 # URL
@@ -125,3 +125,26 @@ deploy:
   type: git
   repository: https://github.com/whlshdw/whlshdw.github.io
   branch: main
+  token: $DEPLOY_BLOG
+  
+## markdown 渲染引擎配置，默认是hexo-renderer-marked，这个插件渲染速度更快，且有新特性
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-sup
+    - markdown-it-sub
+    - markdown-it-abbr
+    - markdown-it-emoji
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true  ## 永久连接
+    permalinkClass: 'header-anchor'
+    permalinkSymbol: '¶'
