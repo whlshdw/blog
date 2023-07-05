@@ -1,5 +1,4 @@
-
-name: Hexo Deploy
+name: Hexo Auto Deploy
 
 on:
   push:
@@ -7,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  build:https://github.com/whlshdw/blog/blob/main/.github/workflows/main.yml
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
 
@@ -20,11 +19,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '12'
+          node-version: '12.x'
 
       - name: Setup Hexo
         env:
-          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
+          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_PRI }}
         run: |
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
