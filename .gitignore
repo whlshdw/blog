@@ -7,7 +7,5 @@ public/
 .deploy*/
 yarn.lock
 post_backup/
-package-lock.json
-package.json
 server.sh
 .github/
