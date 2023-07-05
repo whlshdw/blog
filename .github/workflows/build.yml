@@ -3,10 +3,11 @@ name: Hexo Auto Deploy
 on:
   push:
     branches:
+
       - main
 
 jobs:
-  build:https://github.com/whlshdw/blog/blob/main/.github/workflows/main.yml
+  build:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
 
