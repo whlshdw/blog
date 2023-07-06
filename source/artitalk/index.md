@@ -18,7 +18,7 @@ coverImg:
 					serverURL: 'https://server.psywhl.top',
 					appId:  'rjrwUkBe3PSg3IenWp8yViyx-MdYXbMMI',
 					appKey: 'QSPYXHORLf4dD58wweg27EEL',
-					pageSize: '5',//每页显示说说的数量
+					pageSize: '2',//每页显示说说的数量
 					shuoPla: 'tubatuba~',
 					avatarPla: 'abaaba',
 					motion: 1,
