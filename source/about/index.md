@@ -3,7 +3,7 @@ layout: "about"
 title: "About"
 date: 2018-03-21 04:48:33
 description: 
-comments: true
+comments: false
 ---
 
 <big>欢迎来访诺第留斯号，航行中~ </big>
@@ -12,9 +12,12 @@ comments: true
 Nautilus 取名于《海底两万里》一艘潜水艇，Nautilus 在浩瀚的海洋中自由航行。
 
 ## About Artitalk
-像解忧杂货铺，写下烦恼，会有回信。  
+ 用户：sthwhl   密码：123456
+> 像解忧杂货铺书中的那面墙，如果愿意，可以写下你的烦恼，会有回信。
 
-> 用户：sthwhl 密码：123456
+> 也可邮件博主：whlshdw@gmail.com
+
+
 
 ## About me
 - learner
