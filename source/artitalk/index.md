@@ -15,6 +15,7 @@ coverImg:
 		<div id="artitalk_main"></div>
 			  		<script>
 					new Artitalk({
+					serverURL: 'https://server.psywhl.top',
 					appId:  'rjrwUkBe3PSg3IenWp8yViyx-MdYXbMMI',
 					appKey: 'QSPYXHORLf4dD58wweg27EEL',
 					pageSize: '5',//每页显示说说的数量
