@@ -19,7 +19,7 @@ coverImg:
 					appId:  'rjrwUkBe3PSg3IenWp8yViyx-MdYXbMMI',
 					appKey: 'QSPYXHORLf4dD58wweg27EEL',
 					pageSize: '5',//每页显示说说的数量
-					shuoPla: '只有鲸鱼才能tubatuba~',
+					shuoPla: 'tubatuba~',
 					avatarPla: 'abaaba',
 					motion: 1,
 					color1: '',
