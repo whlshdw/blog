@@ -11,6 +11,10 @@ comments: true
 ## About Nautilus
 Nautilus 取名于《海底两万里》一艘潜水艇，Nautilus 在浩瀚的海洋中自由航行。
 
+## About Artitalk
+如果愿意，可以在这里登录写下想说的，任何话题都可以，像解忧杂货铺一样，博主会给予解答。
+
+> 用户：sthwhl 密码：123456
 
 ## About me
 - nobody
